@@ -25,13 +25,10 @@
  </TD> 
  <TD width="500">Czy ukończył*ś studia?
 <br><br>
-<input type="checkbox" name="ciastko" value="k"> Tak
+<input type="radio" name="ciastko" value="k"> Tak
 <br><br>
-<input type="checkbox" name="ciastko" value="m"> Nie
+<input type="radio" name="ciastko" value="m"> Nie
 <br><br>
-<input type="checkbox" name="ciastko" value="inna"> INNE
-<br><br>
-<input name="inna" size="25" maxlength="100">
  </TD>
  </TR>
 <TD width="500">Jakie posiadasz doświadczenie z wybranej branży?
@@ -53,7 +50,7 @@
  </TD>
 <TR height="100">
  <TD width="300" > 
-<font size="5" color="black"><b> Na jakie stanowisko aplikujesz? </b></font><br>
+<font size="22" color="black"><b> Na jakie stanowisko aplikujesz? </b></font><br>
  <center> <select>
  <option value="prom">kierowca</option>
  <option value="samolot">pracownik wyższego szczebla</option>
@@ -71,6 +68,22 @@
 600<br>znaków</nobr>
 <br><br>
 <input name="inna" size="25" maxlength="600">
+</TD>
+<TR>
+<nobr> Dlaczego chcesz pracować<br> akurat w naszej firmie? </nobr>
+<br><br>
+<input name="inna" size="25" maxlength="1000">
+ </TD>
+<TD>
+<nobr>Dodatkowe informacje, które<br> chcesz uwzględnić: </nobr>
+<br><br>
+<input name="inna" size="25" maxlength="1000">
+ </TR>
+<TR height="100">
+ <TD><button onclick="alert( Wysłano )" style="height:80px;width:300px"> Wydrukuj </button></TD> 
+ <TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px"> 
+</TD> 
+ <TD> <input type="submit" value="zakończ i wyślij" style="height:80px; width:150px"> </TD>
  </TD>
  </TABLE>
 </form>
